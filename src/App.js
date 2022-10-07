@@ -12,8 +12,8 @@ const Routes = () => {
       <header className="App-header"></header>
       <Switch>
         <Route path="/" exact component={MainPage} />
-        <Route path="/welcome" exact component={WelcomeScreen} />
-        <Route path="/home" exact component={MainInfoScreen} />
+        <Route path="/home" exact component={WelcomeScreen} />
+        <Route path="/welcome" exact component={MainInfoScreen} />
         <Route path="/login" exact component={LoginScreen} />
       </Switch>
     </div>

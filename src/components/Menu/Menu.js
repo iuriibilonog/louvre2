@@ -39,13 +39,13 @@ const Menu = ({ isShow, setIsShow }) => {
           <img src={logoRectangle} alt="" className={s.logoRectangle} />
           <ul className={s.menuList}>
             <li className={s.menuListItem}>
-              <Link to="/welcome">
-                <span className={s.menuListItemTitle}>Welcome</span>
+              <Link to="/home">
+                <span className={s.menuListItemTitle}>Home</span>
               </Link>
             </li>
             <li className={s.menuListItem}>
-              <Link to="/home">
-                <span className={s.menuListItemTitle}>Home</span>
+              <Link to="/welcome">
+                <span className={s.menuListItemTitle}>Welcome</span>
               </Link>
             </li>
             <li className={s.menuListItem}>

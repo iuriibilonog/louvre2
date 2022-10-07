@@ -64,8 +64,8 @@ const LoginScreen = () => {
           info@louvrewealth.com
         </a>
       </div>
-      <Menu isShow={isShowMenu} setIsShow={setIsShowMenu} />
       <Footer />
+      <Menu isShow={isShowMenu} setIsShow={setIsShowMenu} />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 .bgMain {
   position: relative;
+  width: 100vw;
   height: 100vh;
   background-image: url('../../images/bgLoginMob.png');
   background-repeat: no-repeat;
@@ -22,14 +23,18 @@
   width: 60px;
 }
 
+
+
 .loginForm {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  /* margin-top: 60px;
+  margin-bottom: 60px; */
   display: flex;
     flex-direction: column;
     min-width: 240px;
-    margin-right: 60px;
-    margin-left: 60px;
+    max-width: calc(100% / 2);
+    /* margin-right: 60px;
+    margin-left: 60px; */
+    margin: 60px auto 60px auto;
 }
 
 .loginInput {
@@ -77,11 +82,13 @@
 
 .mail {
   display: inline-block;
+ 
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
+  
     /* identical to box height */
   
   
@@ -90,10 +97,11 @@
  
   margin-left: 50%;
   transform: translateX(-50%);
+  /* margin-bottom: 205px; */
   
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 667px) {
   .bgMain {
     background-image: url('../../images/bgLoginTab.png');
     background-size: cover;
@@ -108,6 +116,13 @@
      
      
     }
+
+        .loginWrapper {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
 
     .loginForm {
       max-width: 225px;

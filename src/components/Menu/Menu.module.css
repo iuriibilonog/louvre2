@@ -74,8 +74,10 @@
 .mail {
   position: absolute;
   right: 50%;
-  bottom: 75px;
-  /* margin-top: 20vh; */
+  bottom: 15px;
+  transform: translateX(50%);
+ 
+ 
 
   font-family: 'Poppins';
   font-style: normal;
@@ -89,7 +91,6 @@
 
 
   /* margin-left: 50%; */
-  transform: translateX(50%);
 
 }
 
@@ -187,9 +188,9 @@
   
     }
 
-        .mail {
+        /* .mail {
           bottom: 55px;
-        }
+        } */
   
   
   
@@ -292,9 +293,9 @@
   
     }
 
-    .mail {
+    /* .mail {
       bottom: 60px;
-    }
+    } */
   
   
   
